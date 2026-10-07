@@ -6,8 +6,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Not a software codebase. It is the **delivered, frozen output** of a computational study plus a
 hypothesis manuscript: molecular docking of parent bupropion and its metabolites against the human
-α7 nicotinic acetylcholine receptor (cryo-EM structures **8V82** = activated, **8V8A** = desensitized;
-**8V89**, **7EKP** also used as validation controls). There is no application to build, no test suite,
+α7 nicotinic acetylcholine receptor (cryo-EM structures **8V82** and **8V8A**, both epibatidine/PNU-120596 complexes that Burke et al.
+characterise as desensitized intermediates — 8V8A is virtually identical to 8V82 and neither is a
+fully activated state, so they are NOT an activated/desensitized pair; **8V89** = resting, **7EKP**
+also used as validation controls). There is no application to build, no test suite,
 no server. Work here is reading, checking, analysing, and editing prose/data — not regenerating results.
 
 **The docking pipeline source is not in this directory.** Drivers and analysis scripts
