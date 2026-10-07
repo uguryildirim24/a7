@@ -1,0 +1,165 @@
+{
+  "status": "VERIFIED_AND_COPIED",
+  "completed_utc": "2026-09-26T10:26:48.873962+00:00",
+  "source": "Claude Science latest saved artifact versions, resolved through artifacts.latest_version_id joined to artifact_versions; database opened read-only.",
+  "files": [
+    {
+      "file": "combined_metabolite_docking_report.md",
+      "saved_version": 3,
+      "saved_version_id": "6084568b-fc37-4e72-b207-1aded80773b0",
+      "size_bytes": 19458,
+      "sha256": "a29d12f5f09f520569bcde32629e89d6933853802d2ca6449871fc1c33e45afe",
+      "copied_bytes_verified": true
+    },
+    {
+      "file": "combined_by_measured_site.csv",
+      "saved_version": 1,
+      "saved_version_id": "331b855a-ba3a-421e-bf57-9cd84132eb34",
+      "size_bytes": 14811,
+      "sha256": "74f1af6064ed4e641fb9a819ed72d451193fe0869226e9fdee09b21019cbbf64",
+      "copied_bytes_verified": true
+    },
+    {
+      "file": "combined_metabolite_poses.csv",
+      "saved_version": 1,
+      "saved_version_id": "2705214a-535c-4ae8-84c8-012636ad44d1",
+      "size_bytes": 404013,
+      "sha256": "990937917c2e5ebbf6aa490312a9cba03ef5fe0c015f7bf8e1c7806bb9f5dc60",
+      "copied_bytes_verified": true
+    },
+    {
+      "file": "combined_clash_flagged.csv",
+      "saved_version": 1,
+      "saved_version_id": "5d6341d4-9661-4396-93ff-af8dca9fef3f",
+      "size_bytes": 2081,
+      "sha256": "33fdbd15bcc8b33838da589ed46b5fe317be89b10bbd9cbb0e036552fa44da8f",
+      "copied_bytes_verified": true
+    },
+    {
+      "file": "combined_clash_allmodes.csv",
+      "saved_version": 1,
+      "saved_version_id": "4b8c064b-c5f4-43de-a1ee-0f5de084bf28",
+      "size_bytes": 25296,
+      "sha256": "f23cd18c1450c1b85f4370f0652ee251e3467d2cf8f48ce80a9285e3902d0924",
+      "copied_bytes_verified": true
+    },
+    {
+      "file": "combined_log_evaluated_scores.csv",
+      "saved_version": 1,
+      "saved_version_id": "9c69439a-ffc2-426a-938b-643502e5657b",
+      "size_bytes": 2509297,
+      "sha256": "697eb8e2dc2ebf8b4b104043d04ca7181f40fe4d24cc7ebfb9f37b5c78684826",
+      "copied_bytes_verified": true
+    },
+    {
+      "file": "combined_poses_ALL_MODES.sdf",
+      "saved_version": 1,
+      "saved_version_id": "ae41c4d2-db4f-452e-b450-87b83488a6be",
+      "size_bytes": 30477421,
+      "sha256": "0bf8b31728577215bbc24e0f464f4517f46d36059a7d929d342f56c9619cde93",
+      "copied_bytes_verified": true
+    },
+    {
+      "file": "combined_representative_complexes.tar.gz",
+      "saved_version": 1,
+      "saved_version_id": "55cb7207-bdcb-43b6-a65e-0367333b8bdf",
+      "size_bytes": 43955863,
+      "sha256": "f7c84bcbc0ffa84f6c1019eaa8f387eec50636a4ddc0b49aec3fa8a06b282b26",
+      "copied_bytes_verified": true
+    },
+    {
+      "file": "combined_complex_coverage.json",
+      "saved_version": 1,
+      "saved_version_id": "28ed16a6-0ea5-42e7-a3a3-561ce6b62458",
+      "size_bytes": 40162,
+      "sha256": "c1411e5ae33b1202283e76905ba6e1f7cc11cc770f274fd0c3ef3d6afbf8cffb",
+      "copied_bytes_verified": true
+    },
+    {
+      "file": "combined_full_panel_sites.png",
+      "saved_version": 2,
+      "saved_version_id": "ba515c09-1945-4988-95fa-4b212f1377a4",
+      "size_bytes": 248232,
+      "sha256": "2babcc1cec92d093cf78d0ccc5e38bfa029f0b4636b822d0be05520102aba31e",
+      "copied_bytes_verified": true
+    },
+    {
+      "file": "combined_per_compound_8V82.png",
+      "saved_version": 1,
+      "saved_version_id": "22018ca6-994d-417b-b502-0359282708a4",
+      "size_bytes": 382134,
+      "sha256": "97a8d215e1611cf326f761a480ef5853a5d09a513cb2309b7c6e25d88200d841",
+      "copied_bytes_verified": true
+    },
+    {
+      "file": "combined_per_compound_8V8A.png",
+      "saved_version": 1,
+      "saved_version_id": "bfcd6635-ed95-4788-948a-33529378b23f",
+      "size_bytes": 384634,
+      "sha256": "c97c9df6c691015d254d124ddf16a6e63bf242ff09f42076146b73d42e947604",
+      "copied_bytes_verified": true
+    },
+    {
+      "file": "combined_bundle.tar.gz",
+      "saved_version": 2,
+      "saved_version_id": "28b94d6f-9e60-4303-9cdb-9b27aac3f4f2",
+      "size_bytes": 57491883,
+      "sha256": "680cf670b5d11b4b7889fbf65405a09710c2f2b40225a596c63ae656d5d279f7",
+      "copied_bytes_verified": true
+    },
+    {
+      "file": "INCIDENT_supplement_interruption.md",
+      "saved_version": 2,
+      "saved_version_id": "587e69c1-e2ea-479c-b0e9-63a3a71bf087",
+      "size_bytes": 4992,
+      "sha256": "bd9fe46b5af233c8f72d2977200a89ce4d344c6d315f4f7cb52067025e2b1b74",
+      "copied_bytes_verified": true
+    },
+    {
+      "file": "hb-oglu-interruption-session-evidence.json",
+      "saved_version": 1,
+      "saved_version_id": "f9254a2f-f2bc-43bc-9142-ed3e15e23137",
+      "size_bytes": 25151,
+      "sha256": "21cf235a9c7122452eaafc1a0972823e92f76a69f169221515a86dbc00d1fef0",
+      "copied_bytes_verified": true
+    }
+  ],
+  "independent_verification": {
+    "completed_docking_jobs": 684,
+    "main_jobs": 588,
+    "supplement_jobs": 96,
+    "metabolite_and_parent_jobs": 672,
+    "shared_control_jobs": 12,
+    "modeled_metabolite_species": 20,
+    "parent_reference_species": 2,
+    "chemical_forms": 28,
+    "saved_metabolite_parent_coordinate_modes": 12282,
+    "raw_saved_control_coordinate_modes": 141,
+    "measured_site_groups": 154,
+    "C5_and_ligand_symmetry_clusters_within_groups": 261,
+    "representative_PDB_complexes": 154,
+    "printed_metabolite_parent_mode_table_rows": 13426,
+    "printed_log_only_rows_without_coordinates": 1144,
+    "rank_1_short_contact_flags": 13,
+    "all_saved_mode_short_contact_flags": 93,
+    "bundle_manifest_files_verified": 1718,
+    "bundle_manifest_sha256": "b1bace7ce2a147a5432a4d5eac0b5d008c599458412ef9a3d5e53b370998c798",
+    "chemistry_stereochemistry_receipts_settings_raw_hashes": "PASS",
+    "grouping_contacts_boxes_deposited_references": "PASS",
+    "SDF_PDB_chemistry_and_exact_raw_coordinates": "PASS; maximum coordinate discrepancy 0 Angstrom",
+    "saved_figures_and_report_review": "PASS",
+    "actual_archive_membership_and_all_leaf_hashes": "PASS; latest saved report, tables, views and incident evidence included"
+  },
+  "qualifications": [
+    "Docking poses are modeled placements, not established binding, affinity rankings, occupancy or biological activity.",
+    "Three of four ligand/receptor control pairs recovered the deposited pose at rank 1. I34/8V82 failed at rank 1 in all three seeds; deposited pose recovered at rank 2. Outcomes were retained without retuning.",
+    "The modeled panel includes source-depicted HB-O-glucuronide candidates with unresolved linkage, and does not cover every reported human metabolite. Evidence and protonation qualifications are in the report.",
+    "Twelve earlier supplemental attempts were interrupted and their original failure receipts and partial logs were deleted by Claude Science. Those records are lost. The incident report and exact captured session evidence are included; the records were not reconstructed."
+  ],
+  "parent_outputs_unchanged": {
+    "parent_docking_findings.md": "d309a7a128bd7faa0a1575026487ce14de6468f03820a013b53789f56a9c2bb7",
+    "parent_docking_inputs_and_poses.tar.gz": "458d2ecde2cd24e5e076ff0372ff04a431a9b19ef4f01c358bfcc925b68da011",
+    "parent_bupropion_poses.sdf": "8574c3aa9df7228e82adba8e335c156b8eac0bbfe81b7ad24fc72c1461bd066d",
+    "parent_pose_in_receptor.png": "8c1d16aa42fa64559b6d1a75ab462e0d65d91944310c4f7a79e5b0ba688ac530"
+  }
+}

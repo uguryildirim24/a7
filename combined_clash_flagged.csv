@@ -1,0 +1,14 @@
+batch,species,form,receptor,region_box,seed,n_clashes_below_2p2A,min_receptor_dist_A,score_top,verified,pose_file
+main,TGLUC_1S2S,zwitterion_carboxylate_ammonium,8V82,ortho,20240601,1,2.0,0.952,True,met_TGLUC_1S2S__zwitterion_carboxylate_ammonium__ortho_8V82_s20240601.pdbqt
+main,TGLUC_1S2S,zwitterion_carboxylate_ammonium,8V82,ortho,20240602,1,1.99,0.973,True,met_TGLUC_1S2S__zwitterion_carboxylate_ammonium__ortho_8V82_s20240602.pdbqt
+main,TGLUC_1S2S,zwitterion_carboxylate_ammonium,8V82,ortho,20240603,1,1.99,0.947,True,met_TGLUC_1S2S__zwitterion_carboxylate_ammonium__ortho_8V82_s20240603.pdbqt
+main,TGLUC_1S2S,zwitterion_carboxylate_ammonium,8V8A,ortho,20240602,1,1.96,-1.899,True,met_TGLUC_1S2S__zwitterion_carboxylate_ammonium__ortho_8V8A_s20240602.pdbqt
+main,TGLUC_1S2S,zwitterion_carboxylate_ammonium,8V8A,ortho,20240603,1,1.85,-1.43,True,met_TGLUC_1S2S__zwitterion_carboxylate_ammonium__ortho_8V8A_s20240603.pdbqt
+supplement,HB_2R3R_OGLU,net0_zwitterion,8V82,ortho,20240601,1,1.98,3.491,True,hboglu_HB_2R3R_OGLU__net0_zwitterion__ortho_8V82_s20240601.pdbqt
+supplement,HB_2R3R_OGLU,net0_zwitterion,8V82,ortho,20240602,1,2.12,6.184,True,hboglu_HB_2R3R_OGLU__net0_zwitterion__ortho_8V82_s20240602.pdbqt
+supplement,HB_2R3R_OGLU,net0_zwitterion,8V82,ortho,20240603,1,1.97,3.329,True,hboglu_HB_2R3R_OGLU__net0_zwitterion__ortho_8V82_s20240603.pdbqt
+supplement,HB_2R3R_OGLU,netminus1_anion,8V8A,ortho,20240601,1,1.87,0.044,True,hboglu_HB_2R3R_OGLU__netminus1_anion__ortho_8V8A_s20240601.pdbqt
+supplement,HB_2S3S_OGLU,net0_zwitterion,8V82,ortho,20240601,1,2.17,6.128,True,hboglu_HB_2S3S_OGLU__net0_zwitterion__ortho_8V82_s20240601.pdbqt
+supplement,HB_2S3S_OGLU,net0_zwitterion,8V82,ortho,20240602,1,2.1,0.418,True,hboglu_HB_2S3S_OGLU__net0_zwitterion__ortho_8V82_s20240602.pdbqt
+supplement,HB_2S3S_OGLU,net0_zwitterion,8V82,ortho,20240603,1,2.15,0.851,True,hboglu_HB_2S3S_OGLU__net0_zwitterion__ortho_8V82_s20240603.pdbqt
+supplement,HB_2S3S_OGLU,net0_zwitterion,8V8A,ortho,20240603,1,1.98,2.363,True,hboglu_HB_2S3S_OGLU__net0_zwitterion__ortho_8V8A_s20240603.pdbqt

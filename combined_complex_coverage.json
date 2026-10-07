@@ -1,0 +1,1542 @@
+[
+ {
+  "batch": "main",
+  "species": "BUP_R",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240602",
+  "file": "cx_main_BUP_R_amine_cation_8V82_EPJ_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "BUP_R",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "I34_pocket",
+  "seed": "20240603",
+  "file": "cx_main_BUP_R_amine_cation_8V82_I34_pocket_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "BUP_R",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "I34_pocket",
+  "seed": "20240603",
+  "file": "cx_main_BUP_R_amine_cation_8V8A_I34_pocket_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "BUP_R",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "other_interface",
+  "seed": "20240601",
+  "file": "cx_main_BUP_R_amine_cation_8V8A_other_interface_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "BUP_S",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240602",
+  "file": "cx_main_BUP_S_amine_cation_8V82_EPJ_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "BUP_S",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "I34_pocket",
+  "seed": "20240603",
+  "file": "cx_main_BUP_S_amine_cation_8V82_I34_pocket_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "BUP_S",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "other_interface",
+  "seed": "20240603",
+  "file": "cx_main_BUP_S_amine_cation_8V82_other_interface_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "BUP_S",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240603",
+  "file": "cx_main_BUP_S_amine_cation_8V8A_EPJ_pocket_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "BUP_S",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "I34_pocket",
+  "seed": "20240602",
+  "file": "cx_main_BUP_S_amine_cation_8V8A_I34_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "BUP_S",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "other_interface",
+  "seed": "20240601",
+  "file": "cx_main_BUP_S_amine_cation_8V8A_other_interface_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "E4pOH_1R2S",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240601",
+  "file": "cx_main_E4pOH_1R2S_amine_cation_8V82_EPJ_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "E4pOH_1R2S",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "I34_pocket",
+  "seed": "20240602",
+  "file": "cx_main_E4pOH_1R2S_amine_cation_8V82_I34_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "E4pOH_1R2S",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240601",
+  "file": "cx_main_E4pOH_1R2S_amine_cation_8V8A_EPJ_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "E4pOH_1R2S",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "I34_pocket",
+  "seed": "20240601",
+  "file": "cx_main_E4pOH_1R2S_amine_cation_8V8A_I34_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "E4pOH_1R2S",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "other_interface",
+  "seed": "20240603",
+  "file": "cx_main_E4pOH_1R2S_amine_cation_8V8A_other_interface_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "E4pOH_1R2S",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "pore_lumen",
+  "seed": "20240602",
+  "file": "cx_main_E4pOH_1R2S_amine_cation_8V8A_pore_lumen_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "E4pOH_1S2R",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240603",
+  "file": "cx_main_E4pOH_1S2R_amine_cation_8V82_EPJ_pocket_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "E4pOH_1S2R",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "I34_pocket",
+  "seed": "20240603",
+  "file": "cx_main_E4pOH_1S2R_amine_cation_8V82_I34_pocket_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "E4pOH_1S2R",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240602",
+  "file": "cx_main_E4pOH_1S2R_amine_cation_8V8A_EPJ_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "E4pOH_1S2R",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "I34_pocket",
+  "seed": "20240602",
+  "file": "cx_main_E4pOH_1S2R_amine_cation_8V8A_I34_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "E4pOH_1S2R",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "other_interface",
+  "seed": "20240602",
+  "file": "cx_main_E4pOH_1S2R_amine_cation_8V8A_other_interface_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "E4pOH_1S2R",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "pore_lumen",
+  "seed": "20240601",
+  "file": "cx_main_E4pOH_1S2R_amine_cation_8V8A_pore_lumen_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "EGLUC_1R2S",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240602",
+  "file": "cx_main_EGLUC_1R2S_zwitterion_carboxylate_ammonium_8V82_EPJ_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "EGLUC_1R2S",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V82",
+  "measured_site": "I34_pocket",
+  "seed": "20240603",
+  "file": "cx_main_EGLUC_1R2S_zwitterion_carboxylate_ammonium_8V82_I34_pocket_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "EGLUC_1R2S",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V82",
+  "measured_site": "other_interface",
+  "seed": "20240603",
+  "file": "cx_main_EGLUC_1R2S_zwitterion_carboxylate_ammonium_8V82_other_interface_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "EGLUC_1R2S",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V82",
+  "measured_site": "pore_lumen",
+  "seed": "20240602",
+  "file": "cx_main_EGLUC_1R2S_zwitterion_carboxylate_ammonium_8V82_pore_lumen_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "EGLUC_1R2S",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V8A",
+  "measured_site": "I34_pocket",
+  "seed": "20240601",
+  "file": "cx_main_EGLUC_1R2S_zwitterion_carboxylate_ammonium_8V8A_I34_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "EGLUC_1R2S",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V8A",
+  "measured_site": "other_interface",
+  "seed": "20240603",
+  "file": "cx_main_EGLUC_1R2S_zwitterion_carboxylate_ammonium_8V8A_other_interface_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "EGLUC_1R2S",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V8A",
+  "measured_site": "pore_lumen",
+  "seed": "20240602",
+  "file": "cx_main_EGLUC_1R2S_zwitterion_carboxylate_ammonium_8V8A_pore_lumen_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "EGLUC_1S2R",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240601",
+  "file": "cx_main_EGLUC_1S2R_zwitterion_carboxylate_ammonium_8V82_EPJ_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "EGLUC_1S2R",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V82",
+  "measured_site": "I34_pocket",
+  "seed": "20240603",
+  "file": "cx_main_EGLUC_1S2R_zwitterion_carboxylate_ammonium_8V82_I34_pocket_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "EGLUC_1S2R",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V82",
+  "measured_site": "pore_lumen",
+  "seed": "20240601",
+  "file": "cx_main_EGLUC_1S2R_zwitterion_carboxylate_ammonium_8V82_pore_lumen_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "EGLUC_1S2R",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V8A",
+  "measured_site": "I34_pocket",
+  "seed": "20240601",
+  "file": "cx_main_EGLUC_1S2R_zwitterion_carboxylate_ammonium_8V8A_I34_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "EGLUC_1S2R",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V8A",
+  "measured_site": "other_interface",
+  "seed": "20240602",
+  "file": "cx_main_EGLUC_1S2R_zwitterion_carboxylate_ammonium_8V8A_other_interface_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "EGLUC_1S2R",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V8A",
+  "measured_site": "pore_lumen",
+  "seed": "20240602",
+  "file": "cx_main_EGLUC_1S2R_zwitterion_carboxylate_ammonium_8V8A_pore_lumen_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "EHB_1R2S",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240601",
+  "file": "cx_main_EHB_1R2S_amine_cation_8V82_EPJ_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "EHB_1R2S",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "I34_pocket",
+  "seed": "20240602",
+  "file": "cx_main_EHB_1R2S_amine_cation_8V82_I34_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "EHB_1R2S",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "other_interface",
+  "seed": "20240601",
+  "file": "cx_main_EHB_1R2S_amine_cation_8V82_other_interface_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "EHB_1R2S",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240603",
+  "file": "cx_main_EHB_1R2S_amine_cation_8V8A_EPJ_pocket_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "EHB_1R2S",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "I34_pocket",
+  "seed": "20240602",
+  "file": "cx_main_EHB_1R2S_amine_cation_8V8A_I34_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "EHB_1R2S",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "other_interface",
+  "seed": "20240603",
+  "file": "cx_main_EHB_1R2S_amine_cation_8V8A_other_interface_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "EHB_1S2R",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240601",
+  "file": "cx_main_EHB_1S2R_amine_cation_8V82_EPJ_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "EHB_1S2R",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "I34_pocket",
+  "seed": "20240602",
+  "file": "cx_main_EHB_1S2R_amine_cation_8V82_I34_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "EHB_1S2R",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "I34_pocket",
+  "seed": "20240602",
+  "file": "cx_main_EHB_1S2R_amine_cation_8V8A_I34_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "EHB_1S2R",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "other_interface",
+  "seed": "20240602",
+  "file": "cx_main_EHB_1S2R_amine_cation_8V8A_other_interface_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "HB_2R3R",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "other_interface",
+  "seed": "20240601",
+  "file": "cx_main_HB_2R3R_amine_cation_8V82_other_interface_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "HB_2R3R",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "pore_lumen",
+  "seed": "20240603",
+  "file": "cx_main_HB_2R3R_amine_cation_8V82_pore_lumen_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "HB_2R3R",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "other_interface",
+  "seed": "20240603",
+  "file": "cx_main_HB_2R3R_amine_cation_8V8A_other_interface_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "HB_2R3R",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "pore_lumen",
+  "seed": "20240602",
+  "file": "cx_main_HB_2R3R_amine_cation_8V8A_pore_lumen_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "HB_2R3R",
+  "form": "neutral",
+  "receptor": "8V82",
+  "measured_site": "I34_pocket",
+  "seed": "20240602",
+  "file": "cx_main_HB_2R3R_neutral_8V82_I34_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "HB_2R3R",
+  "form": "neutral",
+  "receptor": "8V82",
+  "measured_site": "other_interface",
+  "seed": "20240602",
+  "file": "cx_main_HB_2R3R_neutral_8V82_other_interface_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "HB_2R3R",
+  "form": "neutral",
+  "receptor": "8V82",
+  "measured_site": "pore_lumen",
+  "seed": "20240602",
+  "file": "cx_main_HB_2R3R_neutral_8V82_pore_lumen_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "HB_2R3R",
+  "form": "neutral",
+  "receptor": "8V8A",
+  "measured_site": "I34_pocket",
+  "seed": "20240603",
+  "file": "cx_main_HB_2R3R_neutral_8V8A_I34_pocket_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "HB_2R3R",
+  "form": "neutral",
+  "receptor": "8V8A",
+  "measured_site": "other_interface",
+  "seed": "20240601",
+  "file": "cx_main_HB_2R3R_neutral_8V8A_other_interface_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "HB_2R3R",
+  "form": "neutral",
+  "receptor": "8V8A",
+  "measured_site": "pore_lumen",
+  "seed": "20240603",
+  "file": "cx_main_HB_2R3R_neutral_8V8A_pore_lumen_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "HB_2S3S",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240603",
+  "file": "cx_main_HB_2S3S_amine_cation_8V82_EPJ_pocket_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "HB_2S3S",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "other_interface",
+  "seed": "20240603",
+  "file": "cx_main_HB_2S3S_amine_cation_8V82_other_interface_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "HB_2S3S",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "pore_lumen",
+  "seed": "20240601",
+  "file": "cx_main_HB_2S3S_amine_cation_8V82_pore_lumen_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "HB_2S3S",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "I34_pocket",
+  "seed": "20240601",
+  "file": "cx_main_HB_2S3S_amine_cation_8V8A_I34_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "HB_2S3S",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "other_interface",
+  "seed": "20240601",
+  "file": "cx_main_HB_2S3S_amine_cation_8V8A_other_interface_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "HB_2S3S",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "pore_lumen",
+  "seed": "20240602",
+  "file": "cx_main_HB_2S3S_amine_cation_8V8A_pore_lumen_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "HB_2S3S",
+  "form": "neutral",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240602",
+  "file": "cx_main_HB_2S3S_neutral_8V82_EPJ_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "HB_2S3S",
+  "form": "neutral",
+  "receptor": "8V82",
+  "measured_site": "other_interface",
+  "seed": "20240601",
+  "file": "cx_main_HB_2S3S_neutral_8V82_other_interface_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "HB_2S3S",
+  "form": "neutral",
+  "receptor": "8V82",
+  "measured_site": "pore_lumen",
+  "seed": "20240602",
+  "file": "cx_main_HB_2S3S_neutral_8V82_pore_lumen_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "HB_2S3S",
+  "form": "neutral",
+  "receptor": "8V8A",
+  "measured_site": "I34_pocket",
+  "seed": "20240602",
+  "file": "cx_main_HB_2S3S_neutral_8V8A_I34_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "HB_2S3S",
+  "form": "neutral",
+  "receptor": "8V8A",
+  "measured_site": "other_interface",
+  "seed": "20240603",
+  "file": "cx_main_HB_2S3S_neutral_8V8A_other_interface_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "HB_2S3S",
+  "form": "neutral",
+  "receptor": "8V8A",
+  "measured_site": "pore_lumen",
+  "seed": "20240601",
+  "file": "cx_main_HB_2S3S_neutral_8V8A_pore_lumen_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "OH4p_R",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240603",
+  "file": "cx_main_OH4p_R_amine_cation_8V82_EPJ_pocket_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "OH4p_R",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "I34_pocket",
+  "seed": "20240602",
+  "file": "cx_main_OH4p_R_amine_cation_8V82_I34_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "OH4p_R",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "I34_pocket",
+  "seed": "20240601",
+  "file": "cx_main_OH4p_R_amine_cation_8V8A_I34_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "OH4p_R",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "other_interface",
+  "seed": "20240601",
+  "file": "cx_main_OH4p_R_amine_cation_8V8A_other_interface_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "OH4p_R",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "pore_lumen",
+  "seed": "20240603",
+  "file": "cx_main_OH4p_R_amine_cation_8V8A_pore_lumen_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "OH4p_R",
+  "form": "zwitterion_phenolate_ammonium",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240601",
+  "file": "cx_main_OH4p_R_zwitterion_phenolate_ammonium_8V82_EPJ_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "OH4p_R",
+  "form": "zwitterion_phenolate_ammonium",
+  "receptor": "8V82",
+  "measured_site": "I34_pocket",
+  "seed": "20240601",
+  "file": "cx_main_OH4p_R_zwitterion_phenolate_ammonium_8V82_I34_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "OH4p_R",
+  "form": "zwitterion_phenolate_ammonium",
+  "receptor": "8V8A",
+  "measured_site": "I34_pocket",
+  "seed": "20240601",
+  "file": "cx_main_OH4p_R_zwitterion_phenolate_ammonium_8V8A_I34_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "OH4p_R",
+  "form": "zwitterion_phenolate_ammonium",
+  "receptor": "8V8A",
+  "measured_site": "other_interface",
+  "seed": "20240601",
+  "file": "cx_main_OH4p_R_zwitterion_phenolate_ammonium_8V8A_other_interface_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "OH4p_R",
+  "form": "zwitterion_phenolate_ammonium",
+  "receptor": "8V8A",
+  "measured_site": "pore_lumen",
+  "seed": "20240603",
+  "file": "cx_main_OH4p_R_zwitterion_phenolate_ammonium_8V8A_pore_lumen_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "OH4p_S",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240601",
+  "file": "cx_main_OH4p_S_amine_cation_8V82_EPJ_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "OH4p_S",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "I34_pocket",
+  "seed": "20240603",
+  "file": "cx_main_OH4p_S_amine_cation_8V82_I34_pocket_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "OH4p_S",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240603",
+  "file": "cx_main_OH4p_S_amine_cation_8V8A_EPJ_pocket_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "OH4p_S",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "I34_pocket",
+  "seed": "20240602",
+  "file": "cx_main_OH4p_S_amine_cation_8V8A_I34_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "OH4p_S",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "pore_lumen",
+  "seed": "20240601",
+  "file": "cx_main_OH4p_S_amine_cation_8V8A_pore_lumen_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "OH4p_S",
+  "form": "zwitterion_phenolate_ammonium",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240602",
+  "file": "cx_main_OH4p_S_zwitterion_phenolate_ammonium_8V82_EPJ_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "OH4p_S",
+  "form": "zwitterion_phenolate_ammonium",
+  "receptor": "8V82",
+  "measured_site": "I34_pocket",
+  "seed": "20240602",
+  "file": "cx_main_OH4p_S_zwitterion_phenolate_ammonium_8V82_I34_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "OH4p_S",
+  "form": "zwitterion_phenolate_ammonium",
+  "receptor": "8V8A",
+  "measured_site": "I34_pocket",
+  "seed": "20240603",
+  "file": "cx_main_OH4p_S_zwitterion_phenolate_ammonium_8V8A_I34_pocket_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "OH4p_S",
+  "form": "zwitterion_phenolate_ammonium",
+  "receptor": "8V8A",
+  "measured_site": "other_interface",
+  "seed": "20240603",
+  "file": "cx_main_OH4p_S_zwitterion_phenolate_ammonium_8V8A_other_interface_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "OH4p_S",
+  "form": "zwitterion_phenolate_ammonium",
+  "receptor": "8V8A",
+  "measured_site": "pore_lumen",
+  "seed": "20240602",
+  "file": "cx_main_OH4p_S_zwitterion_phenolate_ammonium_8V8A_pore_lumen_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "T4pOH_1R2R",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240603",
+  "file": "cx_main_T4pOH_1R2R_amine_cation_8V82_EPJ_pocket_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "T4pOH_1R2R",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "I34_pocket",
+  "seed": "20240602",
+  "file": "cx_main_T4pOH_1R2R_amine_cation_8V82_I34_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "T4pOH_1R2R",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "other_interface",
+  "seed": "20240603",
+  "file": "cx_main_T4pOH_1R2R_amine_cation_8V82_other_interface_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "T4pOH_1R2R",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240602",
+  "file": "cx_main_T4pOH_1R2R_amine_cation_8V8A_EPJ_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "T4pOH_1R2R",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "I34_pocket",
+  "seed": "20240603",
+  "file": "cx_main_T4pOH_1R2R_amine_cation_8V8A_I34_pocket_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "T4pOH_1R2R",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "pore_lumen",
+  "seed": "20240602",
+  "file": "cx_main_T4pOH_1R2R_amine_cation_8V8A_pore_lumen_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "T4pOH_1S2S",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240602",
+  "file": "cx_main_T4pOH_1S2S_amine_cation_8V82_EPJ_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "T4pOH_1S2S",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "I34_pocket",
+  "seed": "20240603",
+  "file": "cx_main_T4pOH_1S2S_amine_cation_8V82_I34_pocket_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "T4pOH_1S2S",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "other_interface",
+  "seed": "20240602",
+  "file": "cx_main_T4pOH_1S2S_amine_cation_8V82_other_interface_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "T4pOH_1S2S",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "I34_pocket",
+  "seed": "20240603",
+  "file": "cx_main_T4pOH_1S2S_amine_cation_8V8A_I34_pocket_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "T4pOH_1S2S",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "other_interface",
+  "seed": "20240603",
+  "file": "cx_main_T4pOH_1S2S_amine_cation_8V8A_other_interface_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "T4pOH_1S2S",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "pore_lumen",
+  "seed": "20240602",
+  "file": "cx_main_T4pOH_1S2S_amine_cation_8V8A_pore_lumen_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "TGLUC_1R2R",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240602",
+  "file": "cx_main_TGLUC_1R2R_zwitterion_carboxylate_ammonium_8V82_EPJ_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "TGLUC_1R2R",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V82",
+  "measured_site": "other_interface",
+  "seed": "20240601",
+  "file": "cx_main_TGLUC_1R2R_zwitterion_carboxylate_ammonium_8V82_other_interface_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "TGLUC_1R2R",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V82",
+  "measured_site": "pore_lumen",
+  "seed": "20240601",
+  "file": "cx_main_TGLUC_1R2R_zwitterion_carboxylate_ammonium_8V82_pore_lumen_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "TGLUC_1R2R",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V8A",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240601",
+  "file": "cx_main_TGLUC_1R2R_zwitterion_carboxylate_ammonium_8V8A_EPJ_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "TGLUC_1R2R",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V8A",
+  "measured_site": "I34_pocket",
+  "seed": "20240601",
+  "file": "cx_main_TGLUC_1R2R_zwitterion_carboxylate_ammonium_8V8A_I34_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "TGLUC_1R2R",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V8A",
+  "measured_site": "other_interface",
+  "seed": "20240602",
+  "file": "cx_main_TGLUC_1R2R_zwitterion_carboxylate_ammonium_8V8A_other_interface_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "TGLUC_1R2R",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V8A",
+  "measured_site": "pore_lumen",
+  "seed": "20240602",
+  "file": "cx_main_TGLUC_1R2R_zwitterion_carboxylate_ammonium_8V8A_pore_lumen_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "TGLUC_1S2S",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240603",
+  "file": "cx_main_TGLUC_1S2S_zwitterion_carboxylate_ammonium_8V82_EPJ_pocket_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "TGLUC_1S2S",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V82",
+  "measured_site": "I34_pocket",
+  "seed": "20240602",
+  "file": "cx_main_TGLUC_1S2S_zwitterion_carboxylate_ammonium_8V82_I34_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "TGLUC_1S2S",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V82",
+  "measured_site": "pore_lumen",
+  "seed": "20240601",
+  "file": "cx_main_TGLUC_1S2S_zwitterion_carboxylate_ammonium_8V82_pore_lumen_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "TGLUC_1S2S",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V8A",
+  "measured_site": "other_interface",
+  "seed": "20240601",
+  "file": "cx_main_TGLUC_1S2S_zwitterion_carboxylate_ammonium_8V8A_other_interface_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "TGLUC_1S2S",
+  "form": "zwitterion_carboxylate_ammonium",
+  "receptor": "8V8A",
+  "measured_site": "pore_lumen",
+  "seed": "20240602",
+  "file": "cx_main_TGLUC_1S2S_zwitterion_carboxylate_ammonium_8V8A_pore_lumen_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "THB_1R2R",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240602",
+  "file": "cx_main_THB_1R2R_amine_cation_8V82_EPJ_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "THB_1R2R",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "I34_pocket",
+  "seed": "20240601",
+  "file": "cx_main_THB_1R2R_amine_cation_8V82_I34_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "THB_1R2R",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240603",
+  "file": "cx_main_THB_1R2R_amine_cation_8V8A_EPJ_pocket_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "THB_1R2R",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "I34_pocket",
+  "seed": "20240601",
+  "file": "cx_main_THB_1R2R_amine_cation_8V8A_I34_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "THB_1R2R",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "other_interface",
+  "seed": "20240603",
+  "file": "cx_main_THB_1R2R_amine_cation_8V8A_other_interface_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "THB_1R2R",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "pore_lumen",
+  "seed": "20240603",
+  "file": "cx_main_THB_1R2R_amine_cation_8V8A_pore_lumen_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "THB_1S2S",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240602",
+  "file": "cx_main_THB_1S2S_amine_cation_8V82_EPJ_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "THB_1S2S",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "I34_pocket",
+  "seed": "20240602",
+  "file": "cx_main_THB_1S2S_amine_cation_8V82_I34_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "THB_1S2S",
+  "form": "amine_cation",
+  "receptor": "8V82",
+  "measured_site": "other_interface",
+  "seed": "20240601",
+  "file": "cx_main_THB_1S2S_amine_cation_8V82_other_interface_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "THB_1S2S",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240601",
+  "file": "cx_main_THB_1S2S_amine_cation_8V8A_EPJ_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "THB_1S2S",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "I34_pocket",
+  "seed": "20240601",
+  "file": "cx_main_THB_1S2S_amine_cation_8V8A_I34_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "THB_1S2S",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "other_interface",
+  "seed": "20240603",
+  "file": "cx_main_THB_1S2S_amine_cation_8V8A_other_interface_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "THB_1S2S",
+  "form": "amine_cation",
+  "receptor": "8V8A",
+  "measured_site": "pore_lumen",
+  "seed": "20240602",
+  "file": "cx_main_THB_1S2S_amine_cation_8V8A_pore_lumen_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "mCBA",
+  "form": "anion",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240601",
+  "file": "cx_main_mCBA_anion_8V82_EPJ_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "mCBA",
+  "form": "anion",
+  "receptor": "8V82",
+  "measured_site": "I34_pocket",
+  "seed": "20240601",
+  "file": "cx_main_mCBA_anion_8V82_I34_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "mCBA",
+  "form": "anion",
+  "receptor": "8V8A",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240602",
+  "file": "cx_main_mCBA_anion_8V8A_EPJ_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "mCBA",
+  "form": "anion",
+  "receptor": "8V8A",
+  "measured_site": "I34_pocket",
+  "seed": "20240603",
+  "file": "cx_main_mCBA_anion_8V8A_I34_pocket_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "mCHA",
+  "form": "anion",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240601",
+  "file": "cx_main_mCHA_anion_8V82_EPJ_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "mCHA",
+  "form": "anion",
+  "receptor": "8V82",
+  "measured_site": "I34_pocket",
+  "seed": "20240601",
+  "file": "cx_main_mCHA_anion_8V82_I34_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "mCHA",
+  "form": "anion",
+  "receptor": "8V8A",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240601",
+  "file": "cx_main_mCHA_anion_8V8A_EPJ_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "main",
+  "species": "mCHA",
+  "form": "anion",
+  "receptor": "8V8A",
+  "measured_site": "I34_pocket",
+  "seed": "20240603",
+  "file": "cx_main_mCHA_anion_8V8A_I34_pocket_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "supplement",
+  "species": "HB_2R3R_OGLU",
+  "form": "net0_zwitterion",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240602",
+  "file": "cx_supplement_HB_2R3R_OGLU_net0_zwitterion_8V82_EPJ_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "supplement",
+  "species": "HB_2R3R_OGLU",
+  "form": "net0_zwitterion",
+  "receptor": "8V82",
+  "measured_site": "other_interface",
+  "seed": "20240603",
+  "file": "cx_supplement_HB_2R3R_OGLU_net0_zwitterion_8V82_other_interface_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "supplement",
+  "species": "HB_2R3R_OGLU",
+  "form": "net0_zwitterion",
+  "receptor": "8V82",
+  "measured_site": "pore_lumen",
+  "seed": "20240602",
+  "file": "cx_supplement_HB_2R3R_OGLU_net0_zwitterion_8V82_pore_lumen_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "supplement",
+  "species": "HB_2R3R_OGLU",
+  "form": "net0_zwitterion",
+  "receptor": "8V8A",
+  "measured_site": "other_interface",
+  "seed": "20240603",
+  "file": "cx_supplement_HB_2R3R_OGLU_net0_zwitterion_8V8A_other_interface_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "supplement",
+  "species": "HB_2R3R_OGLU",
+  "form": "net0_zwitterion",
+  "receptor": "8V8A",
+  "measured_site": "pore_lumen",
+  "seed": "20240601",
+  "file": "cx_supplement_HB_2R3R_OGLU_net0_zwitterion_8V8A_pore_lumen_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "supplement",
+  "species": "HB_2R3R_OGLU",
+  "form": "netminus1_anion",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240602",
+  "file": "cx_supplement_HB_2R3R_OGLU_netminus1_anion_8V82_EPJ_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "supplement",
+  "species": "HB_2R3R_OGLU",
+  "form": "netminus1_anion",
+  "receptor": "8V82",
+  "measured_site": "I34_pocket",
+  "seed": "20240602",
+  "file": "cx_supplement_HB_2R3R_OGLU_netminus1_anion_8V82_I34_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "supplement",
+  "species": "HB_2R3R_OGLU",
+  "form": "netminus1_anion",
+  "receptor": "8V82",
+  "measured_site": "other_interface",
+  "seed": "20240603",
+  "file": "cx_supplement_HB_2R3R_OGLU_netminus1_anion_8V82_other_interface_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "supplement",
+  "species": "HB_2R3R_OGLU",
+  "form": "netminus1_anion",
+  "receptor": "8V82",
+  "measured_site": "pore_lumen",
+  "seed": "20240602",
+  "file": "cx_supplement_HB_2R3R_OGLU_netminus1_anion_8V82_pore_lumen_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "supplement",
+  "species": "HB_2R3R_OGLU",
+  "form": "netminus1_anion",
+  "receptor": "8V8A",
+  "measured_site": "other_interface",
+  "seed": "20240601",
+  "file": "cx_supplement_HB_2R3R_OGLU_netminus1_anion_8V8A_other_interface_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "supplement",
+  "species": "HB_2R3R_OGLU",
+  "form": "netminus1_anion",
+  "receptor": "8V8A",
+  "measured_site": "pore_lumen",
+  "seed": "20240603",
+  "file": "cx_supplement_HB_2R3R_OGLU_netminus1_anion_8V8A_pore_lumen_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "supplement",
+  "species": "HB_2S3S_OGLU",
+  "form": "net0_zwitterion",
+  "receptor": "8V82",
+  "measured_site": "other_interface",
+  "seed": "20240601",
+  "file": "cx_supplement_HB_2S3S_OGLU_net0_zwitterion_8V82_other_interface_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "supplement",
+  "species": "HB_2S3S_OGLU",
+  "form": "net0_zwitterion",
+  "receptor": "8V82",
+  "measured_site": "pore_lumen",
+  "seed": "20240603",
+  "file": "cx_supplement_HB_2S3S_OGLU_net0_zwitterion_8V82_pore_lumen_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "supplement",
+  "species": "HB_2S3S_OGLU",
+  "form": "net0_zwitterion",
+  "receptor": "8V8A",
+  "measured_site": "I34_pocket",
+  "seed": "20240602",
+  "file": "cx_supplement_HB_2S3S_OGLU_net0_zwitterion_8V8A_I34_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "supplement",
+  "species": "HB_2S3S_OGLU",
+  "form": "net0_zwitterion",
+  "receptor": "8V8A",
+  "measured_site": "other_interface",
+  "seed": "20240602",
+  "file": "cx_supplement_HB_2S3S_OGLU_net0_zwitterion_8V8A_other_interface_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "supplement",
+  "species": "HB_2S3S_OGLU",
+  "form": "net0_zwitterion",
+  "receptor": "8V8A",
+  "measured_site": "pore_lumen",
+  "seed": "20240601",
+  "file": "cx_supplement_HB_2S3S_OGLU_net0_zwitterion_8V8A_pore_lumen_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "supplement",
+  "species": "HB_2S3S_OGLU",
+  "form": "netminus1_anion",
+  "receptor": "8V82",
+  "measured_site": "EPJ_pocket",
+  "seed": "20240601",
+  "file": "cx_supplement_HB_2S3S_OGLU_netminus1_anion_8V82_EPJ_pocket_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "supplement",
+  "species": "HB_2S3S_OGLU",
+  "form": "netminus1_anion",
+  "receptor": "8V82",
+  "measured_site": "other_interface",
+  "seed": "20240603",
+  "file": "cx_supplement_HB_2S3S_OGLU_netminus1_anion_8V82_other_interface_s20240603.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "supplement",
+  "species": "HB_2S3S_OGLU",
+  "form": "netminus1_anion",
+  "receptor": "8V82",
+  "measured_site": "pore_lumen",
+  "seed": "20240601",
+  "file": "cx_supplement_HB_2S3S_OGLU_netminus1_anion_8V82_pore_lumen_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "supplement",
+  "species": "HB_2S3S_OGLU",
+  "form": "netminus1_anion",
+  "receptor": "8V8A",
+  "measured_site": "I34_pocket",
+  "seed": "20240602",
+  "file": "cx_supplement_HB_2S3S_OGLU_netminus1_anion_8V8A_I34_pocket_s20240602.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "supplement",
+  "species": "HB_2S3S_OGLU",
+  "form": "netminus1_anion",
+  "receptor": "8V8A",
+  "measured_site": "other_interface",
+  "seed": "20240601",
+  "file": "cx_supplement_HB_2S3S_OGLU_netminus1_anion_8V8A_other_interface_s20240601.pdb",
+  "verified": "True"
+ },
+ {
+  "batch": "supplement",
+  "species": "HB_2S3S_OGLU",
+  "form": "netminus1_anion",
+  "receptor": "8V8A",
+  "measured_site": "pore_lumen",
+  "seed": "20240603",
+  "file": "cx_supplement_HB_2S3S_OGLU_netminus1_anion_8V8A_pore_lumen_s20240603.pdb",
+  "verified": "True"
+ }
+]
