@@ -1,1 +1,37 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.cache/
+.ipynb_checkpoints/
+
+# Build output and duplicate manuscript exports
+build/
+dist/
+*.egg-info/
+/bupropion_alpha7_hypothesis_draft.pdf
+/bupropion_alpha7_hypothesis_draft.docx
+
+# Historical bundles containing private metadata
+/combined_bundle.tar.gz
+/parent_docking_inputs_and_poses.tar.gz
+
+# Secrets and private configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+/secrets/
+/credentials/
+/session-transcripts/
+
+# Editor and platform metadata
 .DS_Store
+._*
+__MACOSX/
+*.swp
+*.swo

@@ -1,5 +1,10 @@
 # Novelty and submission review
 
+Historical September 26, 2026 record for an older single-hypothesis draft.
+The manuscript now has two hypotheses. Venue and policy descriptions below are
+historical, not current submission guidance. Read with
+[the corrections](docs/review_record.md).
+
 **26 September 2026 — companion to the hypothesis manuscript draft.** Scope: the proposed α7 contribution to bupropion-associated depersonalization, with the completed metabolite docking as preliminary structural analysis. No new docking, exposure simulation, circuit simulation or laboratory experiment was run. The monitoring automation remains paused. Nothing was submitted or sent to another person.
 
 ## Assessment

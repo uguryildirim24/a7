@@ -1,15 +1,20 @@
 # Computational and full-text findings — 7 October 2026
 
+Historical research record. Read with [the corrections](docs/review_record.md).
+The first-person check claims below refer to the October 7, 2026 agent review,
+not checks repeated during public cleanup.
+
 Builds on `claim_audit_2026-10-07.md`. I don't repeat it. Nothing in the manuscript, the audit or any
-data file was edited; this is the only file written. Scratch scripts are in `/private/tmp/a7_rpt/`
-(`exposure.py`, `ties.py`, `box.py`, `best.py`) and rerun with `python3 -I`.
+data file was edited; this was the only file written in that review. Scratch scripts
+(`exposure.py`, `ties.py`, `box.py`, `best.py`) were run with `python3 -I` outside
+this repository. Their local paths are omitted.
 
 **Tags.** [VERIFIED] I read the source or reran the numbers myself today. [VERIFIED-ADV] an adversarial
 checker independently reproduced or re-read it. [REPORTED] carried from one of the sub-analyses, source
 named, I did not re-read it. [INFERENCE] reasoning on top of sources, not stated by them.
 [UNVERIFIED] could not be checked. Long verbatim source quotes are kept out of this file on purpose
-(they sit in the scratch logs under `/private/tmp/a7_exposure_audit/` and
-`/private/tmp/a7s/`); numbers are given with the table or section they come from.
+(they sit in external scratch logs; local paths are omitted); numbers are given
+with the table or section they come from.
 
 **Two things about the inputs you should know.**
 1. The manuscript moved after the audit. Commits `05940b2` (Papke sentence), `784dc68` (Grunebaum

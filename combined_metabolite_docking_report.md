@@ -1,15 +1,21 @@
-# Bupropion metabolites vs α7 nicotinic receptor — combined docking report
+# Bupropion metabolites vs α7 nicotinic receptor, combined docking report
 
 **Modeled docking study. Not experimental structures, not measured binding. Docking
 scores are AutoDock Vina scores in kcal/mol; they are NOT Ki/IC50/affinity/occupancy and
 carry no preference or clinical interpretation.** This report describes *where within α7*
 each modeled ligand can be placed by docking, classified by the measured coordinates of
-the pose — nothing about whether it binds, how tightly, or with what functional effect.
+the pose, nothing about whether it binds, how tightly, or with what functional effect.
+
+Public edition, October 8, 2026. The five original CSV tables, coverage JSON and
+historical figures remain included, along with saved coordinates and representative
+complexes. Full input and provenance bundles await reviewed replacements. See [data access](docs/data_access.md). The delivery hashes
+identify the original files, not this edited report or redacted session evidence. See the
+[review record](docs/review_record.md) for corrections and verification limits.
 
 ## 1. Scope and what this is / is not
 
 - **Question addressed:** given the bupropion metabolite/parent panel and two α7
-  cryo-EM conformations, where do docked poses land within the receptor (pore lumen,
+  cryo-EM templates, where do docked poses land within the receptor (pore lumen,
   the EPJ orthosteric-adjacent pocket, the I34 intersubunit PAM pocket, or other
   interface), by measured coordinates?
 - **Not addressed, and not inferable from this study:** functional antagonism, agonism
@@ -26,7 +32,7 @@ the pose — nothing about whether it binds, how tightly, or with what functiona
   Vina's hydrogen-bond term (AutoDock Vina 1.2.7 `scoring_function.h` includes
   hydrophobic and H-bond terms; see the official FAQ,
   https://autodock-vina.readthedocs.io/en/latest/faq.html). So protonation/charge forms
-  affect sterics, torsions, and H-bond atom typing — but no electrostatic or affinity
+  affect sterics, torsions, and H-bond atom typing, but no electrostatic or affinity
   conclusion is drawn from them.
 
 ## 2. Panel and design
@@ -36,16 +42,20 @@ the pose — nothing about whether it binds, how tightly, or with what functiona
   chemical forms = 24 main forms + 4 supplement forms (HB-O-glucuronide (2R3R)/(2S3S) ×
   net-0 zwitterion / net-1 anion). Species with two protonation forms (e.g.
   hydroxybupropion) contribute multiple forms.
-- **Receptor states:** α7 nAChR, PDB **8V82** (activated) and **8V8A** (desensitized).
-- **Search regions (per state):** mid-pore, outer-pore, orthosteric (ortho / EPJ), and
-  lateral I34 pocket — 4 regions × 2 states = 8 region-states. Boxes deliberately
+- **Receptor templates:** α7 nAChR, PDB **8V82** and **8V8A**. Both are
+  epibatidine/PNU-120596 complexes characterized as desensitized intermediates.
+  They are not an activated/desensitized pair. Prepared docking receptors omit
+  the ligands but retain their ligand-bound conformations. Source: Burke et al.
+  (2024), DOI 10.1016/j.cell.2024.01.032.
+- **Search regions (per template):** mid-pore, outer-pore, orthosteric (ortho / EPJ), and
+  lateral I34 pocket, 4 regions × 2 templates = 8 region/template combinations. Boxes deliberately
   **overlap**; ligand-inflated pore boxes extend laterally into the I34 pocket, so a
   pose's site is taken from its **measured coordinates**, never from the box it was
   searched in.
-- **Seeds:** 3 per region-state. **Docking:** AutoDock Vina 1.2.7, exhaustiveness 32,
+- **Seeds:** 3 per region/template combination. **Docking:** AutoDock Vina 1.2.7, exhaustiveness 32,
   `energy_range=3.0`.
 - **Job counts:** 576 main metabolite jobs + 96 supplement jobs = **672 met/parent
-  jobs**; plus **12 shared co-crystal control jobs** (EPJ, I34 × 2 states × 3 seeds).
+  jobs**; plus **12 shared co-crystal control jobs** (EPJ, I34 × 2 templates × 3 seeds).
   684 docking jobs total.
 
 ## 2a. Panel inventory, evidence class, protonation, and coverage gaps
@@ -58,7 +68,7 @@ structures is **not** the same as human evidence resolving each individual stere
 
 | Chemical class | Species (docked) | Specimen / evidence class | Primary source |
 |---|---|---|---|
-| Parent reference | R-bupropion, S-bupropion | parent drug (reference, not a metabolite) | — |
+| Parent reference | R-bupropion, S-bupropion | parent drug (reference, not a metabolite) | Not applicable |
 | Hydroxybupropion (morpholinol) | (2R,3R), (2S,3S) | plasma, active circulating; stereoselective assay | Teitelbaum PMC4831137 |
 | Threohydrobupropion | (1S,2S), (1R,2R) | plasma, active circulating | Teitelbaum PMC4831137 |
 | Erythrohydrobupropion | (1R,2S), (1S,2R) | plasma, active circulating | Teitelbaum PMC4831137 |
@@ -79,7 +89,7 @@ constitution, not that every modelled stereoisomer is separately demonstrated in
 
 **HB-O-glucuronide qualification (supplement):** built at the morpholinol OH with the
 physical aglycone configuration preserved (verified by in-silico cleavage back to the
-named hydroxybupropion). The linkage is **not proven** — the Petsalo N-linkage hypothesis
+named hydroxybupropion). The linkage is **not proven**, the Petsalo N-linkage hypothesis
 (hydrolysis resistance of the morpholine-hydroxy conjugates M12/M13) is retained as
 unresolved, not overturned. Quantitation in the source is by hydrolysis-subtraction
 without authentic HB-glucuronide standards. Because the morpholinol pKa is unresolved,
@@ -87,7 +97,7 @@ both the net-0 zwitterion and net-1 anion were docked. The intact-conjugate CIP 
 C2 flips on O-glycosylation while physical configuration is preserved (a labelling
 artefact, documented).
 
-**Protonation — the exact modeled forms per species (from the combined table), as
+**Protonation, the exact modeled forms per species (from the combined table), as
 preparation assumptions (no measured metabolite pKa, no population fractions claimed):**
 - Parent (BUP_R, BUP_S), threo/erythrohydrobupropion (THB_1R2R, THB_1S2S, EHB_1R2S,
   EHB_1S2R), and threo/erythro-4′-OH-hydrobupropion (T4pOH_1R2R, T4pOH_1S2S, E4pOH_1R2S,
@@ -96,9 +106,9 @@ preparation assumptions (no measured metabolite pKa, no population fractions cla
   pKa ≈ 7.9 (and the secondary hydroamine pKa ≈ 9) leaves them substantially protonated
   at pH 7.4. These are **preparation assumptions from the parent/analogue chemistry, not
   measured metabolite pKa values.**
-- Hydroxybupropion (HB_2R3R, HB_2S3S): **amine_cation + neutral** — the morpholine
+- Hydroxybupropion (HB_2R3R, HB_2S3S): **amine_cation + neutral**, the morpholine
   secondary-amine pKa is treated as **unresolved**, so both forms were docked.
-- 4′-OH-bupropion (OH4p_R, OH4p_S): **amine_cation + zwitterion_phenolate_ammonium** —
+- 4′-OH-bupropion (OH4p_R, OH4p_S): **amine_cation + zwitterion_phenolate_ammonium**,
   the phenol pKa is **predicted, not measured**, so a phenolate/ammonium zwitterion
   sensitivity form was included alongside the ammonium form.
 - Hydro β-D-glucuronides (TGLUC_1R2R, TGLUC_1S2S, EGLUC_1R2S, EGLUC_1S2R):
@@ -106,7 +116,7 @@ preparation assumptions (no measured metabolite pKa, no population fractions cla
   pH 7.4, amine protonated).
 - Downstream acids (mCBA, mCHA): **anion** (carboxylate deprotonated at pH 7.4).
 - HB-O-glucuronide candidates (HB_2R3R_OGLU, HB_2S3S_OGLU): **net-0 zwitterion + net-1
-  anion** — morpholinol pKa unresolved, both docked.
+  anion**, morpholinol pKa unresolved, both docked.
 - Vina ignores input partial charges; these forms set H-bond atom typing and polar-H
   count, and no electrostatic or affinity conclusion is drawn from them.
 
@@ -122,17 +132,17 @@ mCBA = m-chlorobenzoate (anion); HB_2R3R_OGLU/HB_2S3S_OGLU = HB-O-glucuronide ca
 (net0_zwitterion, netminus1_anion).
 
 **Reported but NOT modeled (coverage gaps), each with its evidence gap:**
-- **Sulfate conjugates** — Petsalo 2007 reports **three urinary sulfates**; conjugation
+- **Sulfate conjugates**, Petsalo 2007 reports **three urinary sulfates**; conjugation
   positions must be read from the primary figures before a structure can be built.
-- **Further glucuronides** — the Petsalo thesis enumerates the 20 urinary metabolites as
+- **Further glucuronides**, the Petsalo thesis enumerates the 20 urinary metabolites as
   **12 glucuronides + 3 sulfates + 1 glycine conjugate + 4 phase-I products**; the
   abstract's "eight glucuronides" are those **newly reported**, not a total. Connarn's
-  **M4–M7** are proposed stereoisomeric hydro-glucuronides whose count/regiochemistry vs
-  the four reassigned diastereomers is **not established** — not four extra proven species.
+  **M4-M7** are proposed stereoisomeric hydro-glucuronides whose count/regiochemistry vs
+  the four reassigned diastereomers is **not established**, not four extra proven species.
 - **HB-glucuronide linkage/regiochemistry** (N- vs O-, position) unresolved; the O-linked
   candidate is docked as such, the N-linkage hypothesis retained.
 - **Connarn M1** (ring-hydrated), **Sager M2** (reported absent clinically) / **M3**
-  (urine, isomer unresolved), and **dihydroxylation products** — positions unresolved.
+  (urine, isomer unresolved), and **dihydroxylation products**, positions unresolved.
 - Not every reported human metabolite, and not every stereoisomer, is experimentally
   established; the panel is explicitly a resolved-structure subset.
 
@@ -144,12 +154,12 @@ Primary sources (open-access identifiers): Teitelbaum PMC4831137
 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5074468/); Gufford PMC4810769
 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4810769/); Petsalo 2007 PMID 17639567,
 DOI 10.1002/rcm.3117 (https://doi.org/10.1002/rcm.3117) and the Petsalo Oulu thesis
-(pp. 44–48; https://oulurepo.oulu.fi/bitstream/10024/35925/1/isbn978-951-42-9441-9.pdf); m-chlorobenzoic acid human radiolabel PMID 3107223
+(pp. 44-48; https://oulurepo.oulu.fi/bitstream/10024/35925/1/isbn978-951-42-9441-9.pdf); m-chlorobenzoic acid human radiolabel PMID 3107223
 (https://pubmed.ncbi.nlm.nih.gov/3107223/). Database SMILES (e.g. DrugBank DBMET03478,
 wrong formula C22H34ClNO4) were **not** trusted; every structure was built from primary
 chemistry and verified independently.
 
-## 3. Provenance and integrity (all gates FINAL)
+## 3. Historical provenance and integrity
 
 | Batch | Jobs | Manifest SHA-256 | Status |
 |---|---|---|---|
@@ -160,15 +170,17 @@ chemistry and verified independently.
 - Every one of the 672 combined rows is verified against a real driver receipt
   (`returncode=0`, `ok=True`, `cached=False`, output SHA matches). Supplement: 96/96
   receipts rc0/ok/cached=False, output hashes match, 96 unique tags.
-- Combined bundle triple gate = **FINAL** (main FINAL + supplement FINAL + combined
-  FINAL), packaged as a metadata-free archive.
+- The original combined bundle was recorded as **FINAL** (main FINAL + supplement
+  FINAL + combined FINAL). This is a historical automated verification status,
+  not a new scientific review. Local workspace paths remain inside historical
+  logs and scripts, so the original archive is not ready for public redistribution.
 
 ## 4. Saved coordinate modes vs log-only evaluated scores
 
 Vina prints the mode-table scores to the log (the printed modes), but writes coordinates
 only for the modes inside the default `energy_range=3.0` kcal/mol window.
 "**ALL_MODES**" throughout this delivery means **all SAVED coordinate modes**. "Log-only"
-means a **printed mode-table score whose coordinates were never emitted** — not every
+means a **printed mode-table score whose coordinates were never emitted**, not every
 optimizer-evaluated candidate.
 
 - Combined **saved coordinate modes = 12,282** (main metabolite 10,752 + supplement
@@ -193,13 +205,14 @@ Rank-1 measured-site distribution across the 672 combined poses (a diagnostic ta
 | pore lumen | 145 |
 | EPJ pocket (orthosteric-adjacent) | 103 |
 
-**154** is the number of batch/species/form/state/measured-site **groups**
+**154** is the number of batch/species/form/template/measured-site **groups**
 (`combined_by_measured_site.csv`); it is not a de-duplicated mode count. Within those
 groups the saved `n_distinct_modes_C5_2A` sums to **261 C5-symmetry + ligand-automorphism
 distinct modes** (unique-seed accounted). Per-species / per-form placement across both
-states is shown in the figures (`combined_full_panel_sites.png`; per-compound coordinate
-panels `combined_per_compound_8V82.png` (activated) and `combined_per_compound_8V8A.png`
-(desensitized)). Raw counts run at 24 or 48 sampled poses per species (two-form species
+templates is shown in the included historical figures (`combined_full_panel_sites.png`;
+per-compound panels `combined_per_compound_8V82.png` and `combined_per_compound_8V8A.png`).
+Their titles retain incorrect state labels. Read them with the template correction
+above and relabel by template ID before reuse in a publication. Raw counts run at 24 or 48 sampled poses per species (two-form species
 = 48) and are **not** C5-deduplicated modes.
 
 These placements are geometric locations only; they do not indicate binding, preference,
@@ -211,20 +224,20 @@ mid-pore log; this is a sampling caveat, not a pass/fail condition. All jobs ran
 exhaustiveness 32, cpu 1 per job, seeds 20240601/20240602/20240603, 20 modes requested,
 and Vina's unchanged default output `energy_range=3.0` kcal/mol.
 
-## 6. Short-contact (clash) geometry flags — retained, never promoted
+## 6. Short-contact (clash) geometry flags, retained, never promoted
 
 Threshold: any receptor-heavy / ligand heavy-atom pair **< 2.2 Å** (unchanged). These
-are **geometry flags on modeled poses — not failed docking exits and not binding
+are **geometry flags on modeled poses, not failed docking exits and not binding
 evidence.** Flagged poses are retained and labelled; alternatives (rank > 1) are kept in
 the raw poses and the ALL_MODES SDF and are never substituted for rank-1.
 
-- **Rank-1 flagged poses: 13** (`combined_clash_flagged.csv`) — main 5 + supplement 8:
-  - main: TGLUC_1S2S zwitterion(carboxylate/ammonium) ortho — 8V82 s01/s02/s03,
-    8V8A s02/s03 (min 1.85–2.00 Å).
+- **Rank-1 flagged poses: 13** (`combined_clash_flagged.csv`), main 5 + supplement 8:
+  - main: TGLUC_1S2S zwitterion(carboxylate/ammonium) ortho, 8V82 s01/s02/s03,
+    8V8A s02/s03 (min 1.85-2.00 Å).
   - supplement: HB_2R3R_OGLU net-0 zwitterion ortho 8V82 s01/s02/s03; HB_2R3R_OGLU
     net-1 anion ortho 8V8A s01; HB_2S3S_OGLU net-0 zwitterion ortho 8V82 s01/s02/s03
-    and 8V8A s03 (min 1.87–2.17 Å).
-- **All-mode flagged saved modes: 93** (`combined_clash_allmodes.csv`) — main 51 +
+    and 8V8A s03 (min 1.87-2.17 Å).
+- **All-mode flagged saved modes: 93** (`combined_clash_allmodes.csv`), main 51 +
   supplement 42 (includes rank-1 and alternatives).
 
 ## 7. HB-O-glucuronide qualification (supplement)
@@ -232,7 +245,7 @@ the raw poses and the ALL_MODES SDF and are never substituted for rank-1.
 The HB-O-glucuronide forms are a **source-depicted O-linked candidate** (Teitelbaum
 Fig 1), built at the morpholinol OH with the physical aglycone configuration preserved
 (verified by in-silico cleavage back to the named hydroxybupropion). **The linkage is
-not proven** — the N-linkage hypothesis is retained. Because morpholinol pKa is
+not proven**, the N-linkage hypothesis is retained. Because morpholinol pKa is
 unresolved, both the net-0 zwitterion (carboxylate + ammonium) and net-1 anion were
 docked. The intact-conjugate CIP label at C2 flips on O-glycosylation (aglycone 2R,3R →
 S at C2 in the conjugate) while physical configuration is preserved; this is a CIP
@@ -245,29 +258,36 @@ seeds):
 
 | Control | Receptor | Top-pose RMSD (Å) | Outcome |
 |---|---|---|---|
-| EPJ (epibatidine) | 8V82 | 0.426–0.454 | pass |
-| EPJ (epibatidine) | 8V8A | 1.299–1.305 | pass |
-| I34 (PAM) | 8V8A | 0.639–0.799 | pass |
-| I34 (PAM) | 8V82 | 6.372–6.411 | **fails 3/3 at top pose** |
+| EPJ (epibatidine) | 8V82 | 0.426-0.454 | pass |
+| EPJ (epibatidine) | 8V8A | 1.299-1.305 | pass |
+| I34 (PAM) | 8V8A | 0.639-0.799 | pass |
+| I34 (PAM) | 8V82 | 6.372-6.411 | **fails 3/3 at top pose** |
 
 Three of the four control pairs pass. For **I34 in 8V82**, the correct pose is not the
-top-ranked one (top-pose RMSD 6.372–6.411 Å) but is recovered at **rank-2** (0.744–0.783
+top-ranked one (top-pose RMSD 6.372-6.411 Å) but is recovered at **rank-2** (0.744-0.783
 Å); the rank-2 − rank-1 score gaps are only **0.028 / 0.085 / 0.071 kcal/mol** for seeds
 20240601/02/03. This is a concrete, reproducible demonstration that the workflow's
 scoring can mis-rank by a fraction of a kcal/mol, and is one more reason no score here is
 treated as a preference or affinity statement.
 
-## 9. Incident (record-preservation failure — not a clean run)
+A table re-analysis reproduced 355 of 672 rank-1 jobs (52.8%) with a rank-2 minus
+rank-1 printed score gap below 0.085 kcal/mol. Among pore-lumen rank-1 jobs, the
+count is 142 of 145. This is the largest observed gap in this control's misranking,
+not a statistical uncertainty bound or a transferable error bar. The recorded
+values and their limits are in the [review record](docs/review_record.md).
+
+## 9. Incident (record-preservation failure, not a clean run)
 
 The supplement batch was **interrupted and relaunched**; it is not a clean single run.
 A healthy runner was wrongly inferred dead from an `os.kill(pid,0)` `PermissionError`,
 interrupted, and its 12 in-flight jobs' failure receipts/logs were then **deleted**,
 violating the preserve-failures requirement. Those 12 originals are irretrievably lost;
 the interrupted matrix jobs were retried by the replacement runner, which produced the
-delivered data. Full account: `INCIDENT_supplement_interruption.md`; captured session
-evidence: `hb-oglu-interruption-session-evidence.json` (SHA
-`21cf235a9c7122452eaafc1a0972823e92f76a69f169221515a86dbc00d1fef0`). Both are included
-in the final bundle.
+delivered data. Full account: [incident disclosure](INCIDENT_supplement_interruption.md).
+The [public session evidence](hb-oglu-interruption-session-evidence.json) is a
+redacted derivative linked to the original capture's SHA-256. It is not the original
+capture and does not reconstruct the deleted records. The historical bundle
+contained the unredacted capture; that bundle is not distributed in this tree.
 
 ## 10. Relation to the project hypotheses
 
@@ -279,7 +299,14 @@ require direct receptor measurements. Docking scores cannot prove functional ant
 or clinical causality, and alternative explanations (other nicotinic subtypes,
 non-nicotinic mechanisms) remain open.
 
-## 11. Key delivered artifacts
+## 11. Result tables and historical artifacts
+
+The five original tables, coverage JSON and historical figures are included at
+the repository root. The README has a read-only CSV query. All original rows and
+columns remain. Original checksum limits and omitted private bundles are described
+in [data access](docs/data_access.md).
+
+Original delivery artifacts, with full input and provenance bundles omitted:
 
 - Tables: `combined_metabolite_poses.csv` (672), `combined_by_measured_site.csv` (154),
   `combined_clash_flagged.csv` (13 rank-1), `combined_clash_allmodes.csv` (93 modes),
@@ -290,4 +317,4 @@ non-nicotinic mechanisms) remain open.
 - Figures: `combined_full_panel_sites.png`, `combined_per_compound_8V82.png`,
   `combined_per_compound_8V8A.png`.
 - Provenance: main manifest (`72b31dab…`), supplement manifest (`69642f35…`), incident
-  record + session evidence, full metadata-free bundle.
+  record + session evidence, original bundle requiring privacy review.

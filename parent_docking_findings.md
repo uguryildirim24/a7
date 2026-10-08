@@ -3,14 +3,19 @@
 Scope: **parent bupropion only**. Hydroxybupropion was not docked and is not discussed here as a
 docking result. No score anywhere below is converted to Ki, IC₅₀, occupancy or clinical effect, and
 no pose below is an experimental structure. Protocol and success criteria were frozen in
-`PROTOCOL_FROZEN.md` before any parent pose was generated.
+[the frozen protocol](docs/PROTOCOL_FROZEN.md) before any parent pose was generated.
+
+Public edition, October 8, 2026. Parent coordinates and the historical figure
+remain included. The large input archive awaits a reviewed deposit. See
+[data access](docs/data_access.md) and [dated corrections](docs/review_record.md).
+The original delivery hashes identify the historical report, not this edited edition.
 
 ## 1. Three defects found and fixed before results
 
 **RMSD measurement was wrong, and the earlier "Vina failed pose recovery" conclusion was false.**
 `analyse_validation.py::sym_rmsd` computed a truncation length in its first branch and never used it,
 then truncated the cost matrix with `linear_sum_assignment(D[:n,:n])` while the docked coordinates
-still carried Meeko's polar hydrogens and the reference had hydrogens removed — matching hydrogens to
+still carried Meeko's polar hydrogens and the reference had hydrogens removed, matching hydrogens to
 heavy atoms and silently dropping trailing reference heavy atoms. Re-measured with chemically valid
 correspondence (CCD element/bond graph from the deposited entry, Meeko `REMARK SMILES IDX` mapping,
 heavy atoms only, symmetry-aware, computed in place with **no alignment**), all twelve original Vina
@@ -19,15 +24,15 @@ digit. Vina is therefore the pose-validated engine here and was used; no third m
 
 **Box label was being read as anatomical location.** The original "lumen" box was 27 × 27 × 39 Å, so
 the bupropion pose reported as a lumen result sits 11.96 Å off the pore axis with an atom 0.03 Å
-outside the box face, contacting M1 and M2–M3-loop residues at a subunit interface. Location is now
+outside the box face, contacting M1 and M2-M3-loop residues at a subunit interface. Location is now
 measured, never inferred from the box.
 
 **A three-residue frame shift in the site definition.** The M2 motif `EKISLGITVLLSLTVFMLLVAE` begins
-at E260, not S263, and an earlier alignment mapped its first residue to S263 — displacing every ring
+at E260, not S263, and an earlier alignment mapped its first residue to S263, displacing every ring
 label three residues toward the intracellular side and the outer-pore box centre by 4.8 Å. Ring
 positions are now mapped positionally from observed residue IDs and the identity of all ten named
 residues is asserted in all five chains: **50/50 checks pass** in 8V82, 8V8A, 8V89 and 7EKP. This also
-verifies the numbering offset independently — 8V82/8V8A/8V89 use mature numbering (UniProt − 23),
+verifies the numbering offset independently, 8V82/8V8A/8V89 use mature numbering (UniProt − 23),
 7EKP uses UniProt numbering.
 
 ## 2. Controls (fresh runs, 3 seeds each)
@@ -38,24 +43,24 @@ preparations used in the originally validated campaign.
 
 | ligand | receptor | input | seeds ≤ 2.0 Å (top pose) | top-pose RMSD (Å) |
 |---|---|---|---|---|
-| EPJ (epibatidine) | 8V82 | protonated | 3/3 | 0.428 – 0.442 |
-| EPJ | 8V8A | protonated | 3/3 | 1.292 – 1.295 |
-| I33 (EVP-6124 analogue) | 7EKP | protonated | 3/3 | 0.586 – 0.606 |
-| I34 (PAM) | 8V8A | neutral | 3/3 | 0.614 – 0.696 |
-| I34 | 8V82 | neutral | **0/3** | 6.359 – 6.373 |
-| EPJ | 8V82 / 8V8A | neutral (extra condition) | 3/3, 3/3 | 0.370 – 1.287 / 0.240 – 0.248 |
-| I33 | 7EKP | neutral (extra condition) | 3/3 | 0.538 – 0.545 |
+| EPJ (epibatidine) | 8V82 | protonated | 3/3 | 0.428 - 0.442 |
+| EPJ | 8V8A | protonated | 3/3 | 1.292 - 1.295 |
+| I33 (EVP-6124 analogue) | 7EKP | protonated | 3/3 | 0.586 - 0.606 |
+| I34 (PAM) | 8V8A | neutral | 3/3 | 0.614 - 0.696 |
+| I34 | 8V82 | neutral | **0/3** | 6.359 - 6.373 |
+| EPJ | 8V82 / 8V8A | neutral (extra condition) | 3/3, 3/3 | 0.370 - 1.287 / 0.240 - 0.248 |
+| I33 | 7EKP | neutral (extra condition) | 3/3 | 0.538 - 0.545 |
 
-**C1 met: 4 of 5 ligand–receptor pairs pass at top pose**, against a threshold of ≥ 4 of 5. The 2.0 Å
+**C1 met: 4 of 5 ligand-receptor pairs pass at top pose**, against a threshold of ≥ 4 of 5. The 2.0 Å
 criterion was not relaxed.
 
 **The one failure, diagnosed specifically.** I34 in 8V82 recovers the deposited pose at **rank 2**,
-0.745 – 0.766 Å, in 3 of 3 seeds. The rank-1 pose that displaces it is 6.36 Å away and scores only
-**0.109 kcal/mol** better (−7.565 vs −7.456) — far inside Vina's own scoring resolution. The five I34
-copies are 19.3 – 31.2 Å apart, so this is a placement inversion within one pocket, not a different
+0.745 - 0.766 Å, in 3 of 3 seeds. The rank-1 pose that displaces it is 6.36 Å away and scores only
+**0.109 kcal/mol** better (−7.565 vs −7.456), far inside Vina's own scoring resolution. The five I34
+copies are 19.3 - 31.2 Å apart, so this is a placement inversion within one pocket, not a different
 site. This supports a scoring **misranking in these runs**: the search does locate the deposited geometry,
 but the function does not put it first. It does not establish that the preparation is correct in every
-respect, and RMSD alone does not establish that the two poses occupy the same pocket — 6.36 Å is
+respect, and RMSD alone does not establish that the two poses occupy the same pocket, 6.36 Å is
 smaller than the 19.3 Å inter-copy spacing, which rules out a different copy but does not resolve
 sub-pocket identity. The same ligand and preparation do recover at rank 1 in 8V8A.
 
@@ -69,62 +74,63 @@ files and so does not close that anomaly by direct repetition.
 
 ## 3. Parent bupropion poses
 
-Protonated R and S (the amine is **secondary**, pKa ≈ 7.9), in 8V82 (activated) and 8V8A
-(desensitized), in the outer-pore and mid-pore regions, 3 seeds each — 24 runs, all completed.
+Protonated R and S (the amine is **secondary**, pKa ≈ 7.9), in templates 8V82 and 8V8A
+(both epibatidine/PNU-120596 complexes, not an activated/desensitized pair), in the outer-pore and mid-pore regions, 3 seeds each, 24 runs, all completed.
 Pose agreement is computed modulo the receptor's **C5 symmetry** (operators derived from the structure
 by Cα superposition of chain A onto each chain, not an idealised 72° rotation) and the ligand's graph
 automorphisms, in place.
 
 | enantiomer | receptor | region | score (kcal/mol) | SD | C5 clusters | pairwise RMSD (Å) | location |
 |---|---|---|---|---|---|---|---|
-| R | 8V82 | mid-pore | −5.614 | 0.008 | 1 | 0.074 – 0.093 | pore lumen |
-| R | 8V8A | mid-pore | −5.543 | 0.013 | 1 | 0.076 – 0.128 | pore lumen |
-| R | 8V8A | outer-pore | −5.256 | 0.017 | 1 | 0.063 – 0.085 | pore lumen |
-| S | 8V8A | mid-pore | −5.278 | 0.020 | 1 | 0.079 – 0.123 | pore lumen |
-| S | 8V82 | outer-pore | −5.770 | 0.079 | 1 | 0.116 – 0.223 | lateral interface |
-| S | 8V82 | mid-pore | −5.473 | 0.436 | 2 | 0.049 – 20.18 | mixed |
-| R | 8V82 | outer-pore | −6.196 | 0.279 | 3 | 2.464 – 6.242 | lateral interface |
-| S | 8V8A | outer-pore | −5.207 | 0.314 | 3 | 2.979 – 12.808 | mixed |
+| R | 8V82 | mid-pore | −5.614 | 0.008 | 1 | 0.074 - 0.093 | pore lumen |
+| R | 8V8A | mid-pore | −5.543 | 0.013 | 1 | 0.076 - 0.128 | pore lumen |
+| R | 8V8A | outer-pore | −5.256 | 0.017 | 1 | 0.063 - 0.085 | pore lumen |
+| S | 8V8A | mid-pore | −5.278 | 0.020 | 1 | 0.079 - 0.123 | pore lumen |
+| S | 8V82 | outer-pore | −5.770 | 0.079 | 1 | 0.116 - 0.223 | lateral interface |
+| S | 8V82 | mid-pore | −5.473 | 0.436 | 2 | 0.049 - 20.18 | mixed |
+| R | 8V82 | outer-pore | −6.196 | 0.279 | 3 | 2.464 - 6.242 | lateral interface |
+| S | 8V8A | outer-pore | −5.207 | 0.314 | 3 | 2.979 - 12.808 | mixed |
 
 **Five of eight conditions give a single C5-aware pose cluster across three seeds**, with pairwise
-RMSD below 0.25 Å. Three do not. With three seeds this is **repeatability, not stability** — the
+RMSD below 0.25 Å. Three do not. With three seeds this is **repeatability, not stability**, the
 ten-seed stability criterion C3 was not assessed and is not claimed.
 
-No pose contains a steric clash: **zero receptor–ligand heavy-atom pairs below 2.2 Å** across all 24
-runs, with minimum heavy-atom distances of 2.70 – 3.39 Å. Absence of clashes is a narrow check — it
+No pose contains a steric clash: **zero receptor-ligand heavy-atom pairs below 2.2 Å** across all 24
+runs, with minimum heavy-atom distances of 2.70 - 3.39 Å. Absence of clashes is a narrow check, it
 rules out overlapping atoms and nothing more, and is not evidence that a pose is energetically or
 physiologically plausible.
 
 ## 4. Site inspection: what the parent poses actually contact
 
 Location is measured against each structure's own verified rings and its local lumen radius
-(4.2 – 4.6 Å at the −1′/2′ gate, 6.9 – 8.5 Å at 13′–17′). Lumen poses sit at radial fractions
-0.07 – 0.64 of the local lumen radius with **M2-span contact fractions** of 0.91 – 1.00; lateral
-poses sit at 1.49 – 2.02 with fractions 0.46 – 0.60. This fraction counts contacts with residues in
-the M2 span (UniProt 260–281); **side-chain orientation was not verified**, so it should be read as
+(4.2 - 4.6 Å at the −1′/2′ gate, 6.9 - 8.5 Å at 13′-17′). Lumen poses sit at radial fractions
+0.07 - 0.64 of the local lumen radius with **M2-span contact fractions** of 0.91 - 1.00; lateral
+poses sit at 1.49 - 2.02 with fractions 0.46 - 0.60. This fraction counts contacts with residues in
+the M2 span (UniProt 260-281); **side-chain orientation was not verified**, so it should be read as
 "M2 contacts", not as confirmed pore-facing contacts.
 
 **In the four conditions that gave a single C5-aware cluster** (R mid-pore in 8V82 and 8V8A, R
 outer-pore in 8V8A, S mid-pore in 8V8A), the two enantiomers occupy different depths:
 
-* **R** contacts L270, S271, T273, V274 — the 9′–13′ mid/upper M2 rings, in both receptor states;
-* **S** contacts S263, I266, T267 (and E260/G259 in 8V8A) — the 2′–6′ narrow end.
+* **R** contacts L270, S271, T273, V274, the 9′-13′ mid/upper M2 rings, in both receptor templates;
+* **S** contacts S263, I266, T267 (and E260/G259 in 8V8A), the 2′-6′ narrow end.
 
 This pattern is **not** established for S in the two mixed conditions: S mid-pore in 8V82 split 2
 seeds on-axis at axial −27.2 against 1 lateral seed, and S outer-pore in 8V8A gave three clusters (2
 lumen, 1 lateral). Those mixed outcomes are retained in the tables and are not averaged away.
 
 Taken together, the pore-lumen poses recover **all five of the key residues Duarte 2021 names from its
-docking stage — S263, I266, T267, T273, V274 — plus L277 from its Table 1**. L278 appears only in the
+docking stage, S263, I266, T267, T273, V274, plus L277 from its Table 1**. L278 appears only in the
 lateral interface poses, never in a lumen pose.
 
 ## 5. What this does and does not reproduce from the literature
 
 **Reproduced.** An independent protocol, on deposited human cryo-EM structures, places protonated
 parent bupropion inside the M2 lumen in contact with the same pore-lining residues that Duarte 2021
-reported from a rat homology model — including all five residues it lists as key contacts from its
-docking stage (S263, I266, T267, T273, V274), plus L277 from its post-MD Table 1. That the two agree on residue identity despite sharing neither
-receptor model nor engine is the substantive positive result here.
+reported from a rat homology model, including all five residues it lists as key contacts across its
+docking panel (S263, I266, T267, T273, V274), plus L277 from its post-MD Table 1.
+This is a panel-level overlap between models. It is not an independently verified
+bupropion-specific contact match; the supplementary contact tables remain to be checked.
 
 **Not reproduced, and not attempted.** This is a **different protocol**, not a reproduction: Duarte
 2021 used a Prime homology model of **rat** α7 built from human α4β2 **5KXI** (48.47% identity),
@@ -133,9 +139,9 @@ human structures, Vina 1.2.7, no MD, no MM-GBSA. Their Table 1 values (bupropion
 kcal/mol) are MM-GBSA energies and are **not comparable** to the Vina scores above; no ranking
 comparison against their seven-compound series was made or should be inferred.
 
-**The scoring does not prefer the lumen.** In the activated state 8V82 the lateral interface poses
-score better than the lumen poses (mean −5.98 vs −5.46 kcal/mol; best lateral −6.49). Only in the
-desensitized state 8V8A do lumen poses dominate the sampled set (11 of 12 runs). A pore assignment
+**The scoring does not establish a lumen preference.** In template 8V82 the lateral interface poses
+score better than the lumen poses (mean -5.98 vs -5.46 kcal/mol; best lateral -6.49). In
+template 8V8A, lumen poses account for 11 of 12 sampled runs. A pore assignment
 therefore does **not** follow from the scores; it follows from where the poses are, which is why
 location is reported separately from score throughout.
 
@@ -151,7 +157,7 @@ location is reported separately from score throughout.
 * One lateral pose has a single atom 0.03 Å outside its box face; it is reported as lateral, not
   excluded and not relabelled.
 * Across 22 deposited human α7 entries the complete non-polymer inventory is 9Z9, CA, CLR, EPJ, I33,
-  I34, IVM, NAG, NCT, POV, R16, XG3, YLI, YLR — **no pore-bound blocker**. There is no experimental
+  I34, IVM, NAG, NCT, POV, R16, XG3, YLI, YLR, **no pore-bound blocker**. There is no experimental
   α7 pore pose for any blocker to validate a pore assignment against. Agreement with Duarte 2021 is
   agreement between two models, not confirmation against measurement.
 * The seven-compound apparent-IC₅₀ ranking panel and the active-versus-decoy separation from the
@@ -160,7 +166,7 @@ location is reported separately from score throughout.
 
 ## 7. Standing conclusions on the parent
 
-1. Parent bupropion **experimentally inhibits α7** — IC₅₀ 54 µM on α7 Ca²⁺ influx and Kᵢ 63 µM against
+1. Parent bupropion **experimentally inhibits α7**, IC₅₀ 54 µM on α7 Ca²⁺ influx and Kᵢ 63 µM against
    [³H]imipramine (Vázquez-Gómez 2014, PMID 25016090), reproduced as ~48% inhibition at 50 µM in
    native rat CA1 interneurons (Duarte 2021, PMID 33668529). This is measured pharmacology and does
    not depend on any docking result.
@@ -168,6 +174,6 @@ location is reported separately from score throughout.
    radioligand competition plus homology-model docking; no deposited α7 structure contains a
    pore-bound blocker.
 3. Docking here **does** produce repeatable, clash-free parent poses inside the M2 lumen contacting
-   the published residues — but it does not prefer them on score in the activated state, and a
+   the published residues, but it does not rank them first on score in template 8V82, and a
    modelled pose is not an observed one.
 4. **Hydroxybupropion α7 binding remains unknown**, unchanged and unaddressed by any of the above.

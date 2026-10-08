@@ -1,5 +1,9 @@
 # Claim audit — 7 October 2026
 
+Historical research record. Read with [the corrections](docs/review_record.md).
+Several findings below were superseded. The first-person check claims refer to
+the October 7, 2026 agent review, not checks repeated during public cleanup.
+
 Independent check of `bupropion_alpha7_hypothesis_draft.md` against its own sources and its own data.
 Nothing in the manuscript was edited. This file is the audit only.
 
